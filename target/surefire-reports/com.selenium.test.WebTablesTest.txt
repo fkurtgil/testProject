@@ -1,19 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: com.selenium.test.WebTablesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 51.08 s <<< FAILURE! -- in com.selenium.test.WebTablesTest
-com.selenium.test.WebTablesTest.webTableCRUDTest -- Time elapsed: 49.62 s <<< ERROR!
-org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: stale element not found in the current frame
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.88 s <<< FAILURE! -- in com.selenium.test.WebTablesTest
+com.selenium.test.WebTablesTest.webTableCRUDTest -- Time elapsed: 13.44 s <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="mr-2" data-toggle="tooltip" title="Edit" id="edit-record-1">...</span> is not clickable at point (993, 626). Other element would receive the click: <footer>...</footer>
   (Session info: chrome=134.0.6998.88)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [05c8de9f32fe533a29df49ad41285774, clickElement {id=f.427AFC03B526998BD51CF92310A0E42F.d.7BBFB1D59036AFA87C2B3C28368D8637.e.63}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.88, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/4n/jfvf3qlj1fj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49871/devtoo..., se:cdpVersion: 134.0.6998.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (05c8de9f32fe533a29df49ad41285774)] -> xpath: //button[@id='submit']]
-Session ID: 05c8de9f32fe533a29df49ad41285774
+Command: [2a79b764d76af85ba2dbe1f758e5bed3, clickElement {id=f.2ABF284A724A499F7242779011D3E83F.d.4CEA57A6BC7FF3B248A1118D2448A396.e.52}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.88, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/4n/jfvf3qlj1fj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50099/devtoo..., se:cdpVersion: 134.0.6998.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2a79b764d76af85ba2dbe1f758e5bed3)] -> xpath: //span[@title='Edit']]
+Session ID: 2a79b764d76af85ba2dbe1f758e5bed3
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -26,7 +25,7 @@ Session ID: 05c8de9f32fe533a29df49ad41285774
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at com.selenium.test.WebTablesTest.webTableCRUDTest(WebTablesTest.java:72)
+	at com.selenium.test.WebTablesTest.webTableCRUDTest(WebTablesTest.java:67)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
