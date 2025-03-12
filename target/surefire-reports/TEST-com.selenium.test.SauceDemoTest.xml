@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.selenium.test.SeleniumTest" time="18.41" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.selenium.test.SauceDemoTest" time="24.685" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="webdriver.chrome.driver" value="/Users/fatmakurt/.cache/selenium/chromedriver/mac-arm64/133.0.6943.141/chromedriver"/>
@@ -60,14 +60,17 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="googleSearchTest" classname="com.selenium.test.SeleniumTest" time="18.409">
-    <system-out><![CDATA[Çerez butonu görünmedi, devam ediliyor...
-Sayfa başlığı: Selenium WebDriver - Google'da Ara
+  <testcase name="invalidUsersLoginTest" classname="com.selenium.test.SauceDemoTest" time="11.312">
+    <system-out><![CDATA[Logout işlemi yapılmadı, kullanıcı hatalı olabilir.
 ]]></system-out>
-    <system-err><![CDATA[Mar 12, 2025 10:21:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Mar 12, 2025 10:21:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 12, 2025 10:21:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 12, 2025 10:21:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.88. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
+  <testcase name="validUsersLoginTest" classname="com.selenium.test.SauceDemoTest" time="6.038"/>
 </testsuite>

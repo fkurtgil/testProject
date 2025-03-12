@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.selenium.test.SeleniumTest
+Test set: com.selenium.test.SauceDemoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.41 s -- in com.selenium.test.SeleniumTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.68 s -- in com.selenium.test.SauceDemoTest
