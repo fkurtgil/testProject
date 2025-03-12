@@ -10,3 +10,6 @@
 /Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/runner/TestRunner.java
 /Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/stepdefinitions/DataTablesSteps.java
 /Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/tests/LoginTest.java
+/Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/tests/TestAddToCart.java
+/Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/tests/TestCheckout.java
+/Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/tests/TestSignupLogin.java

@@ -1,9 +1,12 @@
+TestCheckout.class
 pages/DataTablesPage.class
 runner/TestRunner.class
 com/selenium/test/SauceDemoTest9.class
 com/selenium/test/SeleniumTest.class
+tests/TestAddToCart.class
 stepdefinitions/DataTablesSteps.class
 tests/LoginTest.class
+tests/TestSignupLogin.class
 com/selenium/test/WebTablesTest.class
 com/selenium/test/SauceDemoTest.class
 com/selenium/test/PostBookingTest.class

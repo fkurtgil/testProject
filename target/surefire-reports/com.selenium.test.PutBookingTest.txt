@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.selenium.test.PutBookingTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.741 s <<< FAILURE! -- in com.selenium.test.PutBookingTest
-com.selenium.test.PutBookingTest.putBookingTest -- Time elapsed: 0.738 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.732 s <<< FAILURE! -- in com.selenium.test.PutBookingTest
+com.selenium.test.PutBookingTest.putBookingTest -- Time elapsed: 0.731 s <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <403>.
