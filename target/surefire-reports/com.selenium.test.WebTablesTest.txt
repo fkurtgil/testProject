@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: com.selenium.test.WebTablesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.88 s <<< FAILURE! -- in com.selenium.test.WebTablesTest
-com.selenium.test.WebTablesTest.webTableCRUDTest -- Time elapsed: 13.44 s <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 31.81 s <<< FAILURE! -- in com.selenium.test.WebTablesTest
+com.selenium.test.WebTablesTest.webTableCRUDTest -- Time elapsed: 27.91 s <<< ERROR!
 org.openqa.selenium.ElementClickInterceptedException: 
 element click intercepted: Element <span class="mr-2" data-toggle="tooltip" title="Edit" id="edit-record-1">...</span> is not clickable at point (993, 626). Other element would receive the click: <footer>...</footer>
   (Session info: chrome=134.0.6998.88)
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2a79b764d76af85ba2dbe1f758e5bed3, clickElement {id=f.2ABF284A724A499F7242779011D3E83F.d.4CEA57A6BC7FF3B248A1118D2448A396.e.52}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.88, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/4n/jfvf3qlj1fj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50099/devtoo..., se:cdpVersion: 134.0.6998.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (2a79b764d76af85ba2dbe1f758e5bed3)] -> xpath: //span[@title='Edit']]
-Session ID: 2a79b764d76af85ba2dbe1f758e5bed3
+Command: [071c5d0caae71c3ac4023d44e82e2737, clickElement {id=f.4B1B490B23D1716573B8EB954CB368FA.d.0FE0E860D451504D07B157BB87324522.e.54}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.88, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/4n/jfvf3qlj1fj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50285/devtoo..., se:cdpVersion: 134.0.6998.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (071c5d0caae71c3ac4023d44e82e2737)] -> xpath: //span[@title='Edit']]
+Session ID: 071c5d0caae71c3ac4023d44e82e2737
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)

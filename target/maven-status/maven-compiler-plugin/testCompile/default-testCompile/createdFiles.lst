@@ -1,6 +1,9 @@
+pages/DataTablesPage.class
+runner/TestRunner.class
+com/selenium/test/SauceDemoTest9.class
+stepdefinitions/DataTablesSteps.class
+tests/LoginTest.class
+com/selenium/test/WebTablesTest.class
 com/selenium/test/SeleniumTest.class
 com/selenium/test/SauceDemoTest.class
-com/selenium/test/SauceDemoTest9.class
-tests/LoginTest.class
 com/selenium/test/AppTest.class
-com/selenium/test/WebTablesTest.class

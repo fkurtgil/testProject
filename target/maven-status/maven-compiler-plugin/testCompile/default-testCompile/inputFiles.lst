@@ -3,4 +3,7 @@
 /Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/com/selenium/test/SauceDemoTest9.java
 /Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/com/selenium/test/SeleniumTest.java
 /Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/com/selenium/test/WebTablesTest.java
+/Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/pages/DataTablesPage.java
+/Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/runner/TestRunner.java
+/Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/stepdefinitions/DataTablesSteps.java
 /Users/fatmakurt/Desktop/test/SeleniumProject/src/test/java/tests/LoginTest.java
